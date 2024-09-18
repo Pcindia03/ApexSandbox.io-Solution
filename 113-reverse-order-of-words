@@ -1,9 +1,12 @@
 public String reverseWordsInASentence(String sentence){
     //your flawless code here
+    if(sentence ==  null){
+        return null;
+    }
     String reverse = '';
     List<String> lstWords = sentence.split(' ');
     for(Integer i=lstWords.size(); i>=0; i--) {
-        reserve += lstWords[i];
+        reserve += lstWords[i] + ' ';
     }
     return reserve;
 }
