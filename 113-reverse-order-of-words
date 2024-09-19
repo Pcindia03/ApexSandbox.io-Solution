@@ -9,7 +9,8 @@ public String reverseWordsInASentence(String sentence){
         reserve += lstWords[i] + ' ';
     }
     return reserve; */
-    if(sentence ==  null){
+    // if(sentence ==  null){
+    if(String.isBlank(sentence)){
         return null;
     }
 
