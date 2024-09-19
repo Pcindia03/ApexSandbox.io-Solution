@@ -1,0 +1,13 @@
+public Integer fibonacci(Integer n) {
+    //code here
+    Integer n1 = 0;
+    Integer n2 = 1;
+    Integer num;
+    for(Integer i=0; i<n; i++) {
+        num = n1 + n2;
+        n1 = n2;
+        n2 = num;
+    }
+
+    return num;
+}
