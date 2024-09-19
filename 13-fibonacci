@@ -9,5 +9,5 @@ public Integer fibonacci(Integer n) {
         n2 = num;
     }
 
-    return num;
+    return n1;
 }
