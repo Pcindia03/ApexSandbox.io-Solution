@@ -1,6 +1,9 @@
 public Integer nextPrime(Integer num) {
     //code here
-
+    if(num == 1) {
+        num++;
+    }
+    
     for(Integer i=2; i<= num/2; i++) {
         if(Math.mod(num,i) == 0) {
             i = 2;
